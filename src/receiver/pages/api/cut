@@ -1,0 +1,21 @@
+  // new Promise<Buffer>((resolve, reject) => {
+    // hmac.end(() => {
+    //   const res = hmac.read()
+    //   if (res) resolve(res)
+    //   else reject('Failed to read HMAC value')
+    // })
+
+    // req.on('data', chunk => {
+    //   hmac.write(chunk)
+    // })
+
+    // req.on('end', () => {
+    //   hmac.end(() => {
+    //     const res = hmac.read()
+    //     if (res) resolve(res)
+    //     else reject('Failed to read HMAC value')
+    //   })
+    // })
+    
+    //req.pipe(hmac) // == hmac.write('{"message":"Hello!"}')
+  // })
