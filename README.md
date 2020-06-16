@@ -5,10 +5,7 @@
 
 ## Quickstart on macOS
 
-    brew cask install cabal
-    cabal update
-    cabal install -j --disable-tests wreq
-
+    TBD
 
 ## References
 
